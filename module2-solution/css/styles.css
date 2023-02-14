@@ -20,7 +20,7 @@ h1 {
 	display: inline-block;
 	margin: 10px;
 	background-color: #999999;
-	border: 2px solid black;
+	border: 1px solid black;
 	width: 28%;
 	text-align: left;
 }
@@ -32,8 +32,8 @@ h1 {
 	min-width: fit-content;
 	text-align: center;
 	padding-inline: 10px;
-	border-left: 2px solid black;
-	border-bottom: 2px solid black;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
 }
 
 #chicken {
