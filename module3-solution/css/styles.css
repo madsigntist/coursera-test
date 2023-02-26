@@ -1,0 +1,16 @@
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: #61122F;
+	font-family: 'Oxygen', sans-serif;
+}
+
+#bs-example-navbar-collapse-1 ul {
+	background-color: #fff1a8;
+}
+
+.chicken-section {
+	margin: 20px;
+	padding: 20px;
+	background-color: #9d1d4c;
+}
