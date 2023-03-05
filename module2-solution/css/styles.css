@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
 	box-sizing: border-box;
 }
@@ -68,3 +69,75 @@ h1 {
 		width: 90%;
 	}
 }
+=======
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 {
+	text-align: center;
+}
+
+.menu {
+	text-align: center;
+	margin: 15px;
+}
+
+.menu-item {
+	display: inline-block;
+	margin: 10px;
+	background-color: #999999;
+	border: 1px solid black;
+	width: 28%;
+	text-align: left;
+}
+
+.menu-title {
+	float: right;
+	margin: 0px;
+	width: 30%;
+	min-width: fit-content;
+	text-align: center;
+	padding-inline: 10px;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+#chicken {
+	background-color: pink;
+}
+
+#beef {
+	background-color: red;
+	color: white;
+}
+
+#sushi {
+	background-color: lightyellow;
+}
+
+.menu-item p {
+	margin-top: 25px;
+	padding: 20px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.menu-item {
+		width: 44%;
+	}
+	.menu-item:last-child {
+		width: 90%;
+	}
+}
+
+@media (max-width: 767px) {
+	.menu-item {
+		width: 90%;
+	}
+}
+>>>>>>> c65fa1dd9edaecdea575904888382d7a64db41d0
